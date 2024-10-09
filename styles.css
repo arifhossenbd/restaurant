@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #d6bcbc;
+    background-color: #bcffaf;
 }
 
 html {
@@ -20,7 +20,7 @@ html {
 .solid {
     width: 80%;
     height: 1px;
-    background-color: #f6f2f7;
+    background-color: #3bff21;
 }
 
 .social-media,
@@ -30,7 +30,7 @@ a {
     justify-content: center;
     align-items: center;
     transition: opacity 0.5s ease-in-out;
-    color: rgb(77, 90, 67);;
+    color: rgb(81, 182, 3);;
     text-decoration: none;
     cursor: pointer;
     opacity: 0.8;
@@ -126,6 +126,10 @@ nav {
     font-weight: 600;
     padding: 10px 20px;
 }
+.search__btn:hover{
+    background-color: #10d406;
+}
+
 .search__input{
     padding: 10px 20px;
     background-color: #bcffaf;
@@ -136,6 +140,10 @@ nav {
     outline: none;
     font-size: 18px;
     font-weight: 600;
+}
+
+.search__input:hover{
+   outline: 1px solid #2ed405;
 }
 
 .hero__container {
@@ -229,14 +237,14 @@ main {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-color: #fdf3f3;
+    background-color: #ffff;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
 .card:hover {
-    background-color: #f8e3e3;
+    background-color: #bcffaf;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
     transform: scale(1);
     transition: var(--transition);
@@ -307,14 +315,14 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(206, 216, 209);
     text-align: center;
     gap: .8rem;
     /* opacity: calc(100); */
 }
 
 .footer h2 {
-    color: rgb(196, 165, 165);
+    color: rgb(245, 250, 244);
     font-family: Work Sans;
     font-size: 38px;
     font-weight: 700;
@@ -324,7 +332,7 @@ footer {
 }
 
 .footer__desc {
-    color: rgb(170, 157, 157);
+    color: rgb(241, 248, 240);
     font-family: Work Sans;
     font-size: 20px;
     font-weight: 500;
